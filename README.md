@@ -15,7 +15,7 @@ Implementation with keys and their values
                 });
             });
         
-Setting
+Settings
 
 autoplay - Boolean - true Enables autoplay slides
 
