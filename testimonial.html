@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Js slider Testimonial</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/css/hVCarousel.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+    <script src="assets/js/hVCarousel.min.js"></script>
+</head>
+<body>
+<div class="container">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light mb-5">
+        <a class="navbar-brand" href="https://github.com/hiteshvermahsp">Hitesh verma</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="testimonial.html">Testimonials</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="thumbnail.html">Thumbnail sliders</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="docs.html">Tutorial</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <div class="row mb-5">
+        <div class="col-12">
+            <h2>Testimonial</h2>
+            <div id="testimonial" class="hVCarousel py-5">
+                <div class="hVCarousel-inner">
+                    <div class="hVCarousel-slides">
+                        <div class="hVCarousel-item">
+                            <div class="p-3 text-center">
+                                <h4>Slide 1</h4>
+                                <p>Create a mobile, retina, touch-swipe carousel that looks amazing on all browsers and phones. </p>
+                            </div>
+                        </div>
+                        <div class="hVCarousel-item">
+                            <div class="p-3 text-center">
+                                <h4>Slide 2</h4>
+                                <p>Create a mobile, retina, touch-swipe carousel that looks amazing on all browsers and phones. </p>
+                            </div>
+                        </div>
+                        <div class="hVCarousel-item">
+                            <div class="p-3 text-center">
+                                <h4>Slide 3</h4>
+                                <p>Create a mobile, retina, touch-swipe carousel that looks amazing on all browsers and phones. </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="row mb-5">
+        <div class="col-12">
+            <h2>Testimonial without arrows and dots</h2>
+            <div id="another-testimonial" class="hVCarousel py-5">
+                <div class="hVCarousel-inner">
+                    <div class="hVCarousel-slides">
+                        <div class="hVCarousel-item">
+                            <div class="p-3 text-center">
+                                <h4>Slide 1</h4>
+                                <p>Create a mobile, retina, touch-swipe carousel that looks amazing on all browsers and phones. </p>
+                            </div>
+                        </div>
+                        <div class="hVCarousel-item">
+                            <div class="p-3 text-center">
+                                <h4>Slide 2</h4>
+                                <p>Create a mobile, retina, touch-swipe carousel that looks amazing on all browsers and phones. </p>
+                            </div>
+                        </div>
+                        <div class="hVCarousel-item">
+                            <div class="p-3 text-center">
+                                <h4>Slide 3</h4>
+                                <p>Create a mobile, retina, touch-swipe carousel that looks amazing on all browsers and phones. </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<script>
+    $(function() {
+        $('#testimonial').hVCarousel({
+            arrow:true,
+            dots:true,
+            fade:true,
+        });
+
+        $('#another-testimonial').hVCarousel();
+    });
+</script>
+</body>
+</html>

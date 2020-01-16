@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Js slider Testimonial</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+          integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/css/hVCarousel.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+            integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+            crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+            integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+            crossorigin="anonymous"></script>
+    <script src="assets/js/hVCarousel.min.js"></script>
+</head>
+<body>
+<div class="container">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light mb-5">
+        <a class="navbar-brand" href="https://github.com/hiteshvermahsp">Hitesh verma</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="testimonial.html">Testimonials</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="thumbnail.html">Thumbnail sliders</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="docs.html">Tutorial</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <div class="row mb-5">
+        <div class="col-12">
+            <h2>Tutorial</h2>
+        </div>
+
+        <div class="col-12">
+            <p>Simple Implementation </p>
+            <pre>
+            $(function() {
+                $('#another-testimonial').hVCarousel();
+            });
+            </pre>
+        </div>
+        <div class="col-12">
+            <p> Implementation with keys and their values</p>
+            <pre>
+            $(function() {
+                $('#another-testimonial').hVCarousel({
+                    setting-key: setting-value,
+                });
+            });
+            </pre>
+        </div>
+        <div class="col-12">
+            <h4>Settings</h4>
+            <table class="table table-bordered">
+                <thead>
+                <tr>
+                    <th scope="col">Name</th>
+                    <th scope="col">Type</th>
+                    <th scope="col">Default value</th>
+                    <th scope="col">Description</th>
+                </tr>
+                </thead>
+                <tbody>
+                <tr>
+                    <th scope="row">autoplay</th>
+                    <td>Boolean</td>
+                    <td>true</td>
+                    <td>Enables autoplay slides</td>
+                </tr>
+                <tr>
+                    <th scope="row">fade</th>
+                    <td>Boolean</td>
+                    <td>false</td>
+                    <td>If true then enables fade animation otherwise enable slide animation</td>
+                </tr>
+                <tr>
+                    <th scope="row">dots</th>
+                    <td>Boolean</td>
+                    <td>false</td>
+                    <td>Enable dots</td>
+                </tr>
+                <tr>
+                    <th scope="row">arrow</th>
+                    <td>Boolean</td>
+                    <td>false</td>
+                    <td>Enable arrows</td>
+                </tr>
+                <tr>
+                    <th scope="row">Interval</th>
+                    <td>Integer</td>
+                    <td>3000</td>
+                    <td>Set Interval for slides if autoplay enabled</td>
+                </tr>
+                <tr>
+                    <th scope="row">thumbnailPlace</th>
+                    <td>String</td>
+                    <td>left</td>
+                    <td>Set thumbnail around the slider by values: left, right, top, bottom</td>
+                </tr>
+                <tr>
+                    <th scope="row">largeImage</th>
+                    <td>Boolean</td>
+                    <td>false</td>
+                    <td>To side large slide in popup.</td>
+                </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>
+</body>
+</html>
