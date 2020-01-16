@@ -4,13 +4,13 @@ Easy to implement, Fully responsive, Bootstrap based plugin, accessible with arr
 Simple Implementation
 
             $(function() {
-                $('#another-testimonial').hVCarousel();
+                $('#MyCarousel').hVCarousel();
             });
             
 Implementation with keys and their values
 
             $(function() {
-                $('#another-testimonial').hVCarousel({
+                $('#MyCarousel').hVCarousel({
                     setting-key: setting-value,
                 });
             });
