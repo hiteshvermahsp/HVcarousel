@@ -27,7 +27,7 @@ arrow - Boolean - false - Enable arrows
 
 Interval - Integer - 3000 - Set Interval for slides if autoplay enabled
 
-thumbnailPlace - String	left - Set thumbnail around the slider by values: left, right, top, bottom
+thumbnailPlace - String - left - Set thumbnail around the slider by values: left, right, top, bottom
 
 largeImage - Boolean - false - To side large slide in popup.
 
