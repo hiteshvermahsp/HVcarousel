@@ -16,6 +16,7 @@ Implementation with keys and their values
             });
         
 Setting
+
 autoplay - Boolean - true Enables autoplay slides
 
 fade - Boolean - false - If true then enables fade animation otherwise enable slide animation
